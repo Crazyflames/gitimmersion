@@ -1,6 +1,6 @@
 class Sample
   def hello
-    puts "Hello, World"
+    puts "Hello, #{ARGV.first}!"
   end
 end
 
